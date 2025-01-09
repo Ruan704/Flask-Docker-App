@@ -11,7 +11,7 @@ orbs:
       - checkout
       - node/install-packages:
         pkg-manager: npm
-      - run: 
+      - run: |
          echo "install dependencies"
          npm install
 
